@@ -9,14 +9,14 @@ body{
     width:100vw;
     /* overflow:hidden; */
     background-image:url(images/galaxy.png);
-    background-repeat:repeat;
+    background-repeat:no-repeat;
     background-size:cover;
     animation:move 7s linear infinite alternate;
 }
 
 @keyframes move{
     from{background-position:0% 0%;}
-    to{background-position:100% 100%;}
+    to{background-position:10% 10%;}
 }
 
 .space{
@@ -62,10 +62,10 @@ body{
     }
 }
 .orbit-mercury{
-    height:200px;
-    width:200px;
-    top:46%;
-    left:43%;
+    height:180px;
+    width:180px;
+    top:48.5%;
+    left:44.5%;
     animation-duration:6s;
 }
 .orbit-mercury img{
@@ -76,10 +76,10 @@ body{
 }
 
 .orbit-venus{
-    height:300px;
-    width:300px;
-    top:38%;
-    left:39%;
+    height:280px;
+    width:280px;
+    top:42%;
+    left:41.4%;
     animation-duration:12.4s;
 }
 .orbit-venus img{
@@ -90,10 +90,10 @@ body{
 }
 
 .orbit-earth{
-    height:400px;
-    width:400px;
-    top:30.5%;
-    left:35.4%;
+    height:380px;
+    width:380px;
+    top:35.5%;
+    left:38.5%;
     animation-duration:11s;
 }
 .orbit-earth img{
@@ -104,10 +104,10 @@ body{
 }
 
 .orbit-mars{
-    height:500px;
-    width:500px;
-    top:23%;
-    left:32%;
+    height:480px;
+    width: 480px;
+    top:28.7%;
+    left:35.5%;
     animation-duration:9s;
 }
 .orbit-mars img{
@@ -118,10 +118,10 @@ body{
 }
 
 .orbit-jupiter{
-    height:600px;
-    width:600px;
-    top:15%;
-    left:28%;
+    height:580px;
+    width: 580px;
+    top:22.5%;
+    left:32.5%;
     animation-duration:8.5s;
 }
 .orbit-jupiter img{
@@ -132,10 +132,10 @@ body{
 }
 
 .orbit-saturn{
-    height:700px;
-    width:700px;
-    top:7.5%;
-    left:24%;
+    height:680px;
+    width:680px;
+    top:15.7%;
+    left:29.2%;
     animation-duration:11s;
 }
 .orbit-saturn img{
@@ -146,10 +146,10 @@ body{
 }
 
 .orbit-uranus{
-    height:800px;
-    width:800px;
-    top:0.5%;
-    left:20%;
+    height:770px;
+    width:770px;
+    top:9.6%;
+    left:26.5%;
     animation-duration:10s;
 }
 .orbit-uranus img{
@@ -160,10 +160,10 @@ body{
 }
 
 .orbit-neptune{
-    height:900px;
-    width:900px;
-    top:-6%;
-    left:16%;
+    height:870px;
+    width:870px;
+    top:3.5%;
+    left:23.5%;
     animation-duration:8s;
 }
 .orbit-neptune img{
